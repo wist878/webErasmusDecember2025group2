@@ -1,0 +1,46 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+div {
+    width: 100%;
+    background: darkred;
+    color: gold;
+    padding: 10px;
+}
+
+input {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border: 2px solid rgb(169, 23, 227);
+    border-radius: 5px;
+}
+
+/* Pseudo-Class */
+p:hover {
+    font-size: 1em;
+    color: blue;
+}
+
+input:focus {
+    background: greenyellow;
+    color: maroon;
+}
+    div p:nth-child(3):hover {
+        display: none;
+    }
+p::first-letter{
+    color: blueviolet;
+    font-size: 2rem;
+}
+p::before{
+    content:'🎆x🎆';
+}
+p::after{
+    content: '🎇';
+}
+input::placeholder{
+    color: brown;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first web</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--
+    <style>
+        h1 {background-color: red;
+            font-size: 3em;
+        }
+            {
+        font-family: monospace;
+        font-style: italic;
+        }
+    </style>
+-->
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="https://wisteu.com/wp-content/uploads/2024/05/wist-logo.png" alt="logo" width="200px">
+        </figure>
+        <nav id="menu-principal"></nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#blog">Blog</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main id="contenido-principal"> 
+        <section id="hero">
+            <figure id="background-here">
+                <img src="https://cdna.artstation.com/p/assets/covers/images/067/795/250/large/artem-shimarov-artem-shimarov-1058.jpg?1696261836" alt="SALAHOR" width="200">
+            </figure>
+            <div id="text-hero">
+                 <h1> WisT-94 </h1>
+                 <h2> </h2>
+                 <h3> WIST-94 was designed at Military Institute of Armament Technology (WITU) under the code name Piryt (Pyrite in Polish).</p></h3>
+                 <h3>Two prototypes were made in 1992, which differ in the barrel locking system: Model A01 used a rotary-locking system and Model B01 using conventional, Browning-type tilting barrel locking.</h3>
+            </div>
+        </section>
+        <!--Section for the blog-->
+        <section id="blog">
+            <h3>Blog</h3>
+            <article class="blog-post">
+                <h4> Noticia 1 </h4>
+                <figure>
+                    <img src="https://wmasg.com/uploads/froala/images/articles/10063/wistl-5204362fc0e77c627515eb5e9602bd73.JPG" width="300"/>
+
+                </figure>
+                <div class="text-post">
+                    <p>
+                        Called WIST-94 it is based on the B01 prototype. The new pistol was chosen by the Polish military as its new standard sidearm.
+                    </p>
+                </div>
+            </article>
+                        <article class="blog-post">
+                <h4> Noticia 1 </h4>
+                <figure>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfQT8acqHQjJlqWUNPUQFAcYGYMvseH_Qvkw&s" width="300"/>
+
+                </figure>
+                <div class="text-post">
+                    <p>
+                        The trigger mechanism is similar to the one used in Glock pistols: striker-fired double-action-only. After racking the slide back and after each shot fired the striker is held semi-cocked allowing for lighter trigger pull than conventional double-action.
+                    </p>
+                </div>
+            </article>
+            <article class="blog-post">
+                <h4> Noticia 1 </h4>
+                <figure>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDknxwqcbIkkKjOSd7ixAiL3AsBo9YrFpUjg&s" width="300"/>
+
+                </figure>
+                <div class="text-post">
+                    <p>
+                        he WIST-94 is fed by a 16-round magazine. The magazine release catch is reversible for use by left-handed shooters. The slide release lever is located at the left side of the gun.
+                    </p>
+                </div>
+            </article>
+        </section>
+        <!--Sectiune de contact-->
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="contact-form.js" method="post">
+                <label for="name">Nume: </label>
+                <input type="text" id="name"
+                name="name" />
+
+                 <label for="email">Mail: </label>
+                <input type="text" id="email" name="email" />
+                <button type="submit">Send</button>
+                <button type="reset">Delete data</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div id="social-media"
+        <h2> Social Media </h2>
+         <ul>
+                <li>
+                    <a href="#">Instagram</a>
+                </li>
+                <li>
+                    <a href="#">TikTok</a>
+                </li>
+                <li>
+                    <a href="#">Youtube</a>
+                </li>
+            </ul>
+        </div>
+        <div id="copyright">
+            <p>Created by me</p>
+            <figure> 
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_dHIqtO7keHk4l54-1kivgArmZOA2eW9NRw&s  " alt="license" width="100"/>
+            </figure>
+            <p>Creative Commons License</p>
+        </div>
+    </footer>
+</body>
+</html>

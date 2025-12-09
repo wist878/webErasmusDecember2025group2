@@ -1,0 +1,32 @@
+/*Selectores combinadores*/
+
+/*Aplico estilos a los div para diferenciarlos*/
+div{
+
+    background-color: white;
+    color: grey;
+    font-family: sans-serif;
+}
+/*Selectores descendientes*/
+/*Aplica estilos a todos los elementos hijos directos e indirectos del selector indicado*/
+
+div p{
+    color: grey;
+    font-size: 20px;
+}
+/* hijo directo*/
+/* Aplica estilos al elemento hijo directo solamente*/
+
+div > p{
+    background: white;
+}
+/*element adiacent*/
+div+em{
+    background: white;
+    color: white;
+    padding:10px;
+}
+div~p {
+    font-size: 2em;
+    color: grey;
+}

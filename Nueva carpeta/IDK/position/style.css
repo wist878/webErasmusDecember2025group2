@@ -1,0 +1,115 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html{
+    font-family: monospace;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    
+    width: 100;
+    background-color: rgb(71, 0, 0);
+    text-align: center;
+    padding-top: 1.3em;
+    padding-bottom: 1.2em;
+    
+}
+
+header h1::before {
+    content: '🎃';
+}
+
+ header{
+    position: relative;
+    top: 150px;
+ }
+
+ main .hero{
+    background-color: rgb(21, 17, 46);
+    width: 100%;
+ }
+
+ .hero{
+    position: relative;
+    position: absolute;
+    bottom: 150px;  
+    text-align: center;
+    color: antiquewhite;
+    background-color: rgb(206, 117, 164);
+    padding: 1rem;
+ }
+
+ main{
+    position: relative;
+    top: 100px;
+}
+
+main
+ 
+main .hero {
+    background-color:  rgba(19, 6, 6, 0.959);
+    width:100%;
+}
+ .hero figure img{
+    text-align: center;
+    color: rgb(71, 0, 0);
+    background-color: rgb(75, 0, 0);
+    padding: 1rem;
+ }
+
+ .blog{
+    width: 100%;
+    margin: 10px auto;
+    padding: 10opx;
+    border: 1px solid red;
+    border-radius: 10px;
+ }
+
+ .list-coding-languages {
+    width: 100%;
+    border: 2px solid rgb(71, 0, 0);
+    margin-bottom:  5px;
+    padding: 1em;
+    border-radius: 5px;
+    
+ }
+ .list-coding-languages {
+    position: sticky;
+    width: 100%;
+    border: 2px solid rgb(71, 0, 0);
+    margin-bottom:  5px;
+    padding: 1em;
+    border-radius: 5px;
+
+ }   
+ main{
+    position: relative;
+    top: 150px;
+ }
+
+ main .hero{
+    background-color: rgb(21, 17, 46);
+    width: 100%;
+ }
+
+ .hero{
+    position: relative;
+    position: absolute;
+    bottom: 150px;  
+    text-align: center;
+    color: antiquewhite;
+    background-color: rgb(206, 117, 164);
+    padding: 1rem;
+ }
+
+
+

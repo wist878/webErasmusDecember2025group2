@@ -1,0 +1,42 @@
+/* Comentariu css*/
+/* Se pune ultimul style*
+h1 {
+    background-color: blueviolet;
+    font-size: 3em;
+}
+h1{
+    background-color: lightsalmon;
+}*/
+
+body {
+    background: black;
+    color: aqua;
+    font-family: monospace;
+}
+h2{
+    background:aqua;
+    color: black;
+}
+ header {
+    width: 100%;
+ }
+ header figure{
+    width: 80px;
+    margin: 0 auto;
+}
+ header figure img {
+    width: 40%;
+ }
+
+ header ul {
+    list-style: none;
+    text-align:center;
+ }
+ input {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border: 2px solid rgb(169, 23, 227);
+    border-radius: 5px;
+}
+p::before{
+    content:'▄︻╦芫≡══--▄︻╦芫≡══--▄︻╦芫≡══--▄︻╦芫≡══--▄︻╦芫≡══--▄︻╦芫≡══--'}
